@@ -13,11 +13,15 @@
   --main-text-color-opacity: #32312d66;
 }
 
-:root.theme-light .decorated-text {
+.theme-light .page {
+  background-color: #fff1f7;
+}
+
+.theme-light .decorated-text {
   display: none;
 }
 
-:root.theme-light .footer__title {
+.theme-light .footer__title {
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
@@ -33,11 +37,15 @@
     --main-text-color-opacity: #32312d66;
   }
 
-  :root.theme-light .decorated-text {
+  .page {
+    background-color: #fff1f7;
+  }
+
+  .decorated-text {
     display: none;
   }
 
-  :root.theme-light .footer__title {
+  .footer__title {
     text-shadow: 4px 4px 0 var(--accent-color);
   }
 }
